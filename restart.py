@@ -64,4 +64,7 @@ def restart():
     time.sleep(5)
 
 schedule.every().day.at("03:00").do(restart)
-schedule.run_pending()
+
+while True:
+    schedule.run_pending()
+    time.sleep(600)
