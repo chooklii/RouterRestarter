@@ -14,7 +14,7 @@ const PASSWORD = XY
 To run the script in the background simpy add
 
 ```
-nohup python restart.py
+nohup python restart.py &
 ```
 
 to sth. like the .bashrc to start the Scheduler.
