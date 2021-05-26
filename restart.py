@@ -23,6 +23,7 @@ sXPathConfirmRestart = "//input[@id='PAGE_RESTART_POPUP_APPLY1']"
 # init selenium Driver
 def initSelenium():
     options = Options()
+    options.headless = True
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--ignore-certificate-errors")
     Cdriver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
