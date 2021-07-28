@@ -1,5 +1,5 @@
 # RouterRestarter
-Restart a Vodafone Router each day from your Raspberry Pi at 3:00 in the morning.
+Restart a Vodafone Router from your Raspberry Pi each day  at 3:00 in the morning.
 
 ## Settup
 
